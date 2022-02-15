@@ -2,15 +2,15 @@
 
 // LECTURE: Functions
 
-// function describeCountry(country, population, capitalCity){
-//   return `${country} has ${population} people and its capital city is ${capitalCity}`
-// }
-//
-// const pais1 = describeCountry("Chile", "17 millones", "Santiago");
-// const pais2 = describeCountry("Argentina", "40 millones", "Buenos Aires");
-// const pais3 = describeCountry("Islandia", "200 mil", 'Reikiavik')
-//
-// console.log(pais1, pais2, pais3)
+function describeCountry(country, population, capitalCity){
+  return `${country} has ${population} people and its capital city is ${capitalCity}`
+}
+
+const paisx = describeCountry("Chile", "17 millones", "Santiago");
+const paisy = describeCountry("Argentina", "40 millones", "Buenos Aires");
+const paisz = describeCountry("Islandia", "200 mil", 'Reikiavik')
+
+console.log(paisx, paisy, paisz)
 
 // LECTURE: Function Declarations vs. Expressions
 
@@ -123,3 +123,38 @@ myCountry.checkIsland = function(){
 
 console.log(myCountry.checkIsland());
 console.log(myCountry);
+
+// LECTURE: Iteration: The for Loop
+
+for(let i = 1; i <= 50; i++){
+  console.log(`Voter number ${i} is currently voting`);
+}
+
+// LECTURE: Looping Arrays, Breaking and Continuing
+
+let percentages2 = [];
+for(let i = 0; i< populations.length; i++){
+  percentages2.push(percentageOfWorld1(populations[i]));
+}
+console.log(percentages2);
+
+// LECTURE: Looping Backwards and Loops in Loops
+
+const listOfNeighbours = [['Canada', 'Mexico'], ['Spain'], ['Norway', 'Sweden','Russia']];
+
+for(let i = 0; i< listOfNeighbours.length; i++){
+  let arrayLength = listOfNeighbours[i].length;
+  for(let n = 0; n < arrayLength ; n++ ){
+    console.log(`neighbour: ${listOfNeighbours[i][n]}`)
+  }
+}
+
+// LECTURE: The while Loop
+
+let percentages3 = [];
+let i = 0
+while(i< populations.length){
+    percentages3.push(percentageOfWorld1(populations[i]));
+    i++
+}
+console.log(percentages3);
