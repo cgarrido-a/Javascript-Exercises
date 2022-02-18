@@ -13,7 +13,7 @@
 // the function you created before
 // 4. Bonus: Create an array 'total' containing the total values, so the bill + tip
 // Test data: 125, 555 and 44
-
+console.log("*********coding challenge 2************")
 function calcTip(value){
   if (value>50 && value <300)
     return value*0.15

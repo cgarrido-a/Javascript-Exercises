@@ -13,6 +13,7 @@
 // Test data: Marks weights 78 kg and is 1.69 m tall. John weights 92 kg and is 1.95 m
 // tall.
 
+console.log("*********coding challenge 3************")
 
 const mark ={
   name: 'Mark Miller',
