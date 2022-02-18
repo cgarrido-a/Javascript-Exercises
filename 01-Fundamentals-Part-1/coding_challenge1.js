@@ -1,3 +1,5 @@
+console.log("**********CODING CHALLENGE 1************")
+
 let markWeight = 78;
 let markHeight = 1.69;
 
@@ -23,4 +25,3 @@ bmi_john = johnWeight/ (johnHeight**2);
 markHigherBMI = bmi_mark > bmi_john
 
 console.log(bmi_mark, bmi_john, markHigherBMI);
-

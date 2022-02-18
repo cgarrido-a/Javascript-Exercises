@@ -1,3 +1,4 @@
+console.log("**********CODING CHALLENGE 3************")
 // const averageScoreDolphins = (96 + 108 + 89) / 3;
 // const averageScoreKoalas = (88 + 91 + 110) / 3;
 

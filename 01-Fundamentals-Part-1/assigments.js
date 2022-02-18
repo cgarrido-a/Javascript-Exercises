@@ -1,3 +1,4 @@
+console.log("**********ASSIGNMENTS************")
 // JAVASCRIPT FUNDAMENTALS PART 1
 
 //LECTURE Values and Variables
@@ -10,7 +11,7 @@ let population = 19000000;
 
 //LECTURE Data Types
 
-// let isIsland = false; 
+// let isIsland = false;
 let language;
 
 // console.log(isIsland, population, country, language);

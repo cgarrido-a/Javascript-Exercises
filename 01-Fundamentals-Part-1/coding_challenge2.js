@@ -1,22 +1,24 @@
-let markWeight = 78;
-let markHeight = 1.69;
+console.log("**********CODING CHALLENGE 2************")
 
-let johnWeight = 92;
-let johnHeight = 1.95;
+let markWeight2 = 78;
+let markHeight2 = 1.69;
 
-let bmi_mark = markWeight/(markHeight**2);
-let bmi_john = johnWeight/ (johnHeight**2);
+let johnWeight2 = 92;
+let johnHeight2 = 1.95;
 
-markWeight = 95;
-markHeight = 1.88;
+let bmi_mark2 = markWeight2/(markHeight2**2);
+let bmi_john2 = johnWeight2/ (johnHeight2**2);
 
-johnWeight = 85;
-johnHeight = 1.76;
-bmi_mark = markWeight/(markHeight**2);
-bmi_john = johnWeight/ (johnHeight**2);
+markWeight2 = 95;
+markHeight2 = 1.88;
 
-if (bmi_mark > bmi_john){
-   console.log(`Marks BMI ${bmi_mark} is higher than Johns ${bmi_john}`); 
+johnWeight2 = 85;
+johnHeight2 = 1.76;
+bmi_mark2 = markWeight2/(markHeight2**2);
+bmi_john2 = johnWeight2/ (johnHeight2**2);
+
+if (bmi_mark2 > bmi_john2){
+   console.log(`Marks BMI ${bmi_mark2} is higher than Johns ${bmi_john2}`);
 } else {
-    console.log(`Johns BMI ${bmi_john} is higher than Marks ${bmi_mark}`);
+    console.log(`Johns BMI ${bmi_john2} is higher than Marks ${bmi_mark2}`);
 }

@@ -1,3 +1,4 @@
+console.log("*********ASSIGNSMENTS*************")
 // JAVASCRIPT FUNDAMENTALS PART 2
 
 // LECTURE: Functions
